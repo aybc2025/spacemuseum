@@ -1,4 +1,3 @@
-<script>
 // Tab logic
 const tabs = document.querySelectorAll('.tab-btn');
 const panels = document.querySelectorAll('.tab-content');
@@ -26,4 +25,3 @@ window.addEventListener('load',()=>{
 navigator.serviceWorker.register('./sw.js').catch(console.error);
 });
 }
-</script>
