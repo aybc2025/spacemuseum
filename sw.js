@@ -1,10 +1,7 @@
-<script type="text/plain" data-filename="sw.js">
 const CACHE_NAME = 'space-centre-cache-v1';
 const ASSETS = [
 './',
 './index.html',
-'./style.css',
-'./app.js',
 './manifest.webmanifest',
 './images/planetarium.jpg',
 './images/cosmic-courtyard.jpg',
@@ -29,4 +26,3 @@ return net;
 }).catch(()=>caches.match('./index.html')))
 );
 });
-</script>
