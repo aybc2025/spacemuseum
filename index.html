@@ -1,0 +1,64 @@
+<!-- /space-centre-pwa/index.html -->
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>מרכז החלל ונקובר – אפליקציה לילדים</title>
+<meta name="theme-color" content="#0b1d51" />
+<link rel="manifest" href="./manifest.webmanifest" />
+<link rel="icon" href="./icons/icon-192.png" />
+<link rel="stylesheet" href="./style.css" />
+<meta name="description" content="אפליקציית PWA בעברית ללימוד על מרכז החלל של ונקובר: פלנטריום, חצר קוסמית, הדגמות חיות, מצפה כוכבים ותכנון יום" />
+</head>
+<body>
+<header class="site-header">
+<h1>🚀 מרכז החלל ונקובר – לילדים</h1>
+<p class="subtitle">להכיר, לשחק, לתכנן – לפני הביקור ואחריו</p>
+<button id="installBtn" class="install-btn" hidden>התקנה לטלפון</button>
+</header>
+
+
+<!-- Tabs navbar -->
+<nav class="tabs" role="tablist" aria-label="כרטיסיות תוכן">
+<button class="tab-btn is-active" data-tab="planetarium" role="tab" aria-selected="true" aria-controls="planetarium">🪐 פלנטריום</button>
+<button class="tab-btn" data-tab="courtyard" role="tab" aria-selected="false" aria-controls="courtyard">🌌 חצר קוסמית</button>
+<button class="tab-btn" data-tab="groundstation" role="tab" aria-selected="false" aria-controls="groundstation">🚀 הדגמות</button>
+<button class="tab-btn" data-tab="observatory" role="tab" aria-selected="false" aria-controls="observatory">🔭 מצפה</button>
+<button class="tab-btn" data-tab="park" role="tab" aria-selected="false" aria-controls="park">🦀 פארק ומזרקת הסרטן</button>
+<button class="tab-btn" data-tab="dayplan" role="tab" aria-selected="false" aria-controls="dayplan">📅 סדר יום</button>
+</nav>
+
+
+<main>
+<!-- 🪐 Planetarium -->
+<section id="planetarium" class="tab-content is-active" role="tabpanel" aria-labelledby="tab-planetarium">
+<h2>🪐 פלנטריום – אולם הכוכבים</h2>
+<figure class="hero">
+<img src="./images/planetarium.jpg" alt="אולם פלנטריום עם כיפה וכוכבים" loading="lazy" />
+<figcaption>כיפת כוכבים עצומה – טסים בלי לצאת מכיסא.</figcaption>
+</figure>
+<div class="content-grid">
+<article>
+<h3>מה רואים שם?</h3>
+<p>
+הפלנטריום הוא אולם בצורת כיפה שמקרין שמיים, כוכבים וגלקסיות מסביבנו. יושבים לאחור, האורות מחשיכים,
+ומתחיל מסע: עפים מעל הירח, מתקרבים לשבתאי ולומדים על טבעות הקרח שלו, מציצים לתוך ערפיליות צבעוניות,
+ואפילו “נוחתים” במחשבה על מאדים. לכל מופע יש סיפור – לעיתים על מערכת השמש, לעיתים על עונות השנה,
+ולעיתים על השמים בלילה בוונקובר.
+</p>
+</article>
+<article>
+<h3>איך זה מרגיש לילד בן 7?</h3>
+<p>
+זו חוויה סוחפת: הכיפה ענקית והתחושה היא של טיסה אמיתית. הקריינות ברורה, והויזואליות עוזרת להבין רעיונות
+כמו ליקוי, מסלולי כוכבי לכת, וכוכבים נופלים. מומלץ לשבת באמצע האולם לקבלת תצוגה מאוזנת.
+</p>
+</article>
+<article>
+<h3>משימת ילד־אסטרונאוט</h3>
+<ul>
+<li>לספור כמה ירחים רואים סביב צדק.</li>
+<li>למצוא את הכוכב הצפון (אם המופע כולל שמים אמיתיים).</li>
+<li>לצייר אחר כך בבית את מערכת השמש לפי הסדר מהשמש והלאה.</li>
+</html>
