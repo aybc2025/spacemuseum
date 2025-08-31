@@ -1,4 +1,3 @@
-<script type="application/manifest+json">
 {
 "name": "מרכז החלל ונקובר – לילדים",
 "short_name": "SpaceCentre",
@@ -12,4 +11,3 @@
 { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
 ]
 }
-</script>
